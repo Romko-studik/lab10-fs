@@ -5,9 +5,9 @@ int main(int argc, char *argv[])
 {
   std::string path = argv[1];
   FileSystem fs(path);
-  fs.printBootSectorAll();
+  fs.printBootSector();
   // std::cout << std::endl;
-  // fs.printBootSector();
+  // fs.printBootSectorAll();
   std::cout << std::endl;
   std::cout << "Files in root directory:" << std::endl;
   std::cout << std::endl;
